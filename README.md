@@ -5,7 +5,7 @@
 
 技术方案：https://blog.csdn.net/bruce128/article/details/123788596
 
-日常开发分支：main
+该工程的一个重要依赖组件：[https://github.com/bruce256/saas-sql](https://github.com/bruce256/saas-sql),将租户id自动填充入sql中，原理参考pagehelper
 
 ### 部署
 - 正式环境发布，版本号不带snapshot
@@ -29,7 +29,7 @@ mvn deploy "-Dmaven.test.skip=true" -N
 
 2. mq 配置
 
-向spring iocr容器注册两个切面对象
+向spring ioc容器注册两个切面对象
 ```java
 @Bean
 public MqSenderAspect mqSenderAspect(){
