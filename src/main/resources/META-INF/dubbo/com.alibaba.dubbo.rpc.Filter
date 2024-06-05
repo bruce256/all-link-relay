@@ -1,0 +1,2 @@
+merchantIdConsumerFilter=DubboConsumerFilter
+merchantIdProviderFilter=DubboProviderFilter
