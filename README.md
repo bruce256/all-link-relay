@@ -2,6 +2,7 @@
 ### 工程说明
 
 全链路透传merchantId，link_id信息，透传的链路包括rocketmq, dubbo, http
+
 技术方案：https://blog.csdn.net/bruce128/article/details/123788596
 
 日常开发分支：main
