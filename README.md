@@ -2,7 +2,7 @@
 ### 工程说明
 
 全链路透传merchantId，link_id信息，透传的链路包括rocketmq, dubbo, http
-
+技术方案：https://blog.csdn.net/bruce128/article/details/123788596
 
 日常开发分支：main
 
@@ -25,6 +25,7 @@ mvn deploy "-Dmaven.test.skip=true" -N
      <version>1.0.0-SNAPSHOT</version>
  </dependency>
 ```
+
 2. mq 配置
 
 向spring iocr容器注册两个切面对象
